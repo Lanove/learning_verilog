@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.120 (w)1999-2024 BSI
+[*] Sat Sep 21 14:17:23 2024
+[*]
+[dumpfile] "/home/kohigashi/git/apio/pwm_btn_test/pwm_btn_test_tb.vcd"
+[dumpfile_mtime] "Sat Sep 21 14:16:51 2024"
+[dumpfile_size] 432181
+[savefile] "/home/kohigashi/git/apio/pwm_btn_test/pwm_btn_test_tb2.gtkw"
+[timestart] 0
+[size] 1920 992
+[pos] -1 -1
+*-23.612875 146000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] pwm_btn_test_tb.
+[sst_width] 246
+[signals_width] 174
+[sst_expanded] 1
+[sst_vpaned_height] 260
+@56
+pwm_btn_test_tb.dut.clk
+pwm_btn_test_tb.dut.duty_btn_debounced
+pwm_btn_test_tb.dut.psc_btn_debounced
+pwm_btn_test_tb.dut.rst_btn_debounced
+pwm_btn_test_tb.dut.pwm_0.out
+@22
+pwm_btn_test_tb.dut.duty[7:0]
+@23
+pwm_btn_test_tb.dut.psc[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Wed Apr 27 18:37:07 2022
+[*]
+[dumpfile] "pwm_btn_test_tb.vcd"
+[dumpfile_mtime] "Wed Apr 27 18:32:17 2022"
+[dumpfile_size] 623
+[savefile] "pwm_btn_test_tb.gtkw"
+[timestart] 0
+[size] 1920 1080
+[pos] -1 -1
+*-18.262543 146000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] pwm_btn_test_tb.
+[sst_width] 233
+[signals_width] 156
+[sst_expanded] 1
+[sst_vpaned_height] 288
+@56
+pwm_btn_test_tb.dut.clk
+pwm_btn_test_tb.dut.duty_btn_debounced
+pwm_btn_test_tb.dut.psc_btn_debounced
+pwm_btn_test_tb.dut.rst_btn_debounced
+pwm_btn_test_tb.dut.pwm_0.out
+pwm_btn_test_tb.dut.pwm_overflow_flag
+@22
+pwm_btn_test_tb.dut.duty[7:0]
+@23
+pwm_btn_test_tb.dut.psc[7:0]
+[pattern_trace] 1
+[pattern_trace] 0
