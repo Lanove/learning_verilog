@@ -1,0 +1,42 @@
+[*]
+[*] GTKWave Analyzer v3.3.120 (w)1999-2024 BSI
+[*] Thu Oct  3 08:47:47 2024
+[*]
+[dumpfile] "fifo_tb.vcd"
+[dumpfile_mtime] "Thu Oct  3 08:39:16 2024"
+[dumpfile_size] 2789
+[savefile] "fifo_tb.gtkw"
+[timestart] 0
+[size] 1920 992
+[pos] -1 -1
+*-13.151583 12000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] fifo_tb.
+[sst_width] 246
+[signals_width] 156
+[sst_expanded] 1
+[sst_vpaned_height] 260
+@16
+fifo_tb.clk
+fifo_tb.rst_n
+fifo_tb.wr_en
+fifo_tb.rd_en
+fifo_tb.wr_data[7:0]
+@c00016
+fifo_tb.rd_data[7:0]
+@28
+(0)fifo_tb.rd_data[7:0]
+(1)fifo_tb.rd_data[7:0]
+(2)fifo_tb.rd_data[7:0]
+(3)fifo_tb.rd_data[7:0]
+(4)fifo_tb.rd_data[7:0]
+(5)fifo_tb.rd_data[7:0]
+(6)fifo_tb.rd_data[7:0]
+(7)fifo_tb.rd_data[7:0]
+@1401200
+-group_end
+@16
+fifo_tb.full
+@17
+fifo_tb.empty
+[pattern_trace] 1
+[pattern_trace] 0

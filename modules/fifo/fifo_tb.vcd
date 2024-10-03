@@ -1,0 +1,335 @@
+$date
+	Thu Oct  3 15:53:01 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1fs
+$end
+$scope module fifo_tb $end
+$var wire 8 ! rd_data [7:0] $end
+$var wire 1 " full $end
+$var wire 1 # empty $end
+$var parameter 32 $ DATA_WIDTH $end
+$var parameter 32 % FIFO_DEPTH $end
+$var reg 1 & clk $end
+$var reg 1 ' rd_en $end
+$var reg 1 ( rst_n $end
+$var reg 8 ) wr_data [7:0] $end
+$var reg 1 * wr_en $end
+$scope module uut $end
+$var wire 1 & clk $end
+$var wire 1 ' rd_en $end
+$var wire 1 ( rst_n $end
+$var wire 8 + wr_data [7:0] $end
+$var wire 1 * wr_en $end
+$var wire 1 " full $end
+$var wire 1 # empty $end
+$var parameter 32 , DATA_WIDTH $end
+$var parameter 32 - FIFO_DEPTH $end
+$var reg 17 . fifo_count [16:0] $end
+$var reg 8 / rd_data [7:0] $end
+$var reg 4 0 rd_ptr [3:0] $end
+$var reg 4 1 wr_ptr [3:0] $end
+$upscope $end
+$scope task read_from_fifo $end
+$upscope $end
+$scope task toggle_clock $end
+$upscope $end
+$scope task write_to_fifo_incremental $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10000 -
+b1000 ,
+b10000 %
+b1000 $
+$end
+#0
+$dumpvars
+b0 1
+b0 0
+bx /
+b0 .
+b0 +
+0*
+b0 )
+0(
+0'
+0&
+1#
+0"
+bx !
+$end
+#10000
+1*
+b1 )
+b1 +
+1(
+#11000
+0#
+b1 .
+b1 1
+1&
+#12000
+b10 )
+b10 +
+0&
+#13000
+b10 1
+b10 .
+1&
+#14000
+b11 )
+b11 +
+0&
+#15000
+b11 .
+b11 1
+1&
+#16000
+b100 )
+b100 +
+0&
+#17000
+b100 1
+b100 .
+1&
+#18000
+b101 )
+b101 +
+0&
+#19000
+b101 .
+b101 1
+1&
+#20000
+b110 )
+b110 +
+0&
+#21000
+b110 1
+b110 .
+1&
+#22000
+b111 )
+b111 +
+0&
+#23000
+b111 .
+b111 1
+1&
+#24000
+b1000 )
+b1000 +
+0&
+#25000
+b1000 1
+b1000 .
+1&
+#26000
+b1001 )
+b1001 +
+0&
+#27000
+b1001 .
+b1001 1
+1&
+#28000
+b1010 )
+b1010 +
+0&
+#29000
+b1010 1
+b1010 .
+1&
+#30000
+b1011 )
+b1011 +
+0&
+#31000
+b1011 .
+b1011 1
+1&
+#32000
+b1100 )
+b1100 +
+0&
+#33000
+b1100 1
+b1100 .
+1&
+#34000
+b1101 )
+b1101 +
+0&
+#35000
+b1101 .
+b1101 1
+1&
+#36000
+b1110 )
+b1110 +
+0&
+#37000
+b1110 1
+b1110 .
+1&
+#38000
+b1111 )
+b1111 +
+0&
+#39000
+b1111 .
+b1111 1
+1&
+#40000
+b10000 )
+b10000 +
+0&
+#41000
+b0 1
+1"
+b10000 .
+1&
+#42000
+1'
+0*
+b10001 )
+b10001 +
+0&
+#43000
+0"
+b1111 .
+b1 0
+b1 !
+b1 /
+1&
+#44000
+0&
+#45000
+b10 0
+b10 !
+b10 /
+b1110 .
+1&
+#46000
+0&
+#47000
+b1101 .
+b11 0
+b11 !
+b11 /
+1&
+#48000
+0&
+#49000
+b100 0
+b100 !
+b100 /
+b1100 .
+1&
+#50000
+0&
+#51000
+b1011 .
+b101 0
+b101 !
+b101 /
+1&
+#52000
+0&
+#53000
+b110 0
+b110 !
+b110 /
+b1010 .
+1&
+#54000
+0&
+#55000
+b1001 .
+b111 0
+b111 !
+b111 /
+1&
+#56000
+0&
+#57000
+b1000 0
+b1000 !
+b1000 /
+b1000 .
+1&
+#58000
+0&
+#59000
+b111 .
+b1001 0
+b1001 !
+b1001 /
+1&
+#60000
+0&
+#61000
+b1010 0
+b1010 !
+b1010 /
+b110 .
+1&
+#62000
+0&
+#63000
+b101 .
+b1011 0
+b1011 !
+b1011 /
+1&
+#64000
+0&
+#65000
+b1100 0
+b1100 !
+b1100 /
+b100 .
+1&
+#66000
+0&
+#67000
+b11 .
+b1101 0
+b1101 !
+b1101 /
+1&
+#68000
+0&
+#69000
+b1110 0
+b1110 !
+b1110 /
+b10 .
+1&
+#70000
+0&
+#71000
+b1 .
+b1111 0
+b1111 !
+b1111 /
+1&
+#72000
+0&
+#73000
+b0 0
+b10000 !
+b10000 /
+1#
+b0 .
+1&
+#74000
+0'
+0&
+#574000
